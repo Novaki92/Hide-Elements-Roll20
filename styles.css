@@ -1,0 +1,4 @@
+/* Hide a specific element by class */
+.alert.alert-info {
+    display: none !important;
+}

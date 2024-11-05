@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Hide Elements - Roll20",
+    "version": "1.0",
+    "description": "An Edge extension to hide specific elements on Roll20.",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["*://roll20.net/*", "*://*.roll20.net/*"],
+        "css": ["styles.css"]
+      }
+    ]
+  }
